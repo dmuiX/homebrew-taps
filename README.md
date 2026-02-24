@@ -38,3 +38,7 @@ xattr -dr com.apple.quarantine /Applications/<AppName>.app
 ## Disclaimer ⚠️
 
 Personal-use tap. Use at your own discretion.
+
+## AI Notice 🤖
+
+This repository contains AI Code and AI-assisted documentation updates.

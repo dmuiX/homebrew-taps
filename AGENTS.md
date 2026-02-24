@@ -57,6 +57,7 @@ Do not apply frontend-only conventions unless a task explicitly adds frontend co
 - Include a clear `Quick Start` section with copy/paste commands.
 - Prefer tables for package overviews when multiple items are listed.
 - Add a short troubleshooting section for common failure paths (for taps: Gatekeeper/quarantine).
+- Ensure the README always contains an explicit note that it contains AI code/content (wording should include: "contains AI Code").
 - These readability conventions are generally good for most GitHub repos, then adapt details to repo type.
 
 ## Security and Secrets
