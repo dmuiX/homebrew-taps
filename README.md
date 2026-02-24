@@ -1,46 +1,40 @@
 # homebrew-taps 🍺
 
-Personal Homebrew tap containing custom casks and formulas that are not available (or no longer maintained) in the official Homebrew repositories.
+[![Homebrew](https://img.shields.io/badge/Homebrew-Tap-FBB040?logo=homebrew&logoColor=white)](https://brew.sh/)
+[![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)](#)
+[![Type](https://img.shields.io/badge/packages-casks-blue)](#available-casks-)
 
-## Installation ⚙️
+Custom Homebrew tap for macOS packages that are niche, deprecated, or not maintained in official Homebrew repositories.
 
-Add this tap:
+## Quick Start 🚀
 
-``` bash
+```bash
 brew tap dmuiX/taps
+brew install --cask tuxguitar
 ```
 
 ## Available Casks 📦
 
-### TuxGuitar 🎸
-
-Multitrack guitar tablature editor and player.
-
-Install with:
-
-``` bash
-brew install --cask tuxguitar
-```
+| Cask | Description | Install |
+| --- | --- | --- |
+| `tuxguitar` 🎸 | Multitrack guitar tablature editor and player | `brew install --cask tuxguitar` |
 
 ## Why This Tap Exists 🤔
 
-This repository is used to:
+- 🧰 Maintain deprecated or niche macOS applications
+- ♻️ Keep reproducible installations across machines
+- 🛡️ Reduce dependency on Homebrew core cask policy constraints
 
--   🧰 Maintain deprecated or niche macOS applications
--   ♻️ Keep reproducible installations across machines
--   🛡️ Avoid dependency on Homebrew core cask policies (e.g. Gatekeeper
-    notarization enforcement)
+## Troubleshooting 🛠️
 
-## Gatekeeper Note 🔐
+### Gatekeeper / Quarantine 🔐
 
-Some apps in this tap may not be notarized by Apple.\
-If macOS blocks an app, you can remove the quarantine attribute:
+Some apps in this tap may not be notarized by Apple. If macOS blocks an app, remove the quarantine attribute:
 
-``` bash
+```bash
 xattr -dr com.apple.quarantine /Applications/<AppName>.app
 ```
 
 ## Disclaimer ⚠️
 
-This is a personal-use tap.\
-Use at your own discretion.
+Personal-use tap. Use at your own discretion.
