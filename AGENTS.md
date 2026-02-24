@@ -80,6 +80,8 @@ Use Conventional Commits:
 - `ci:`
 - `build:`
 
+If the user says "commit", always create separate, detailed, meaningful, and logically scoped commits (not one combined commit).
+
 ### Commit Body
 
 - Include a short body when behavior changes.
