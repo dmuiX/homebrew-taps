@@ -1,8 +1,8 @@
-# homebrew-taps
+# homebrew-taps 🍺
 
 Personal Homebrew tap containing custom casks and formulas that are not available (or no longer maintained) in the official Homebrew repositories.
 
-## Installation
+## Installation ⚙️
 
 Add this tap:
 
@@ -10,9 +10,9 @@ Add this tap:
 brew tap dmuiX/taps
 ```
 
-## Available Casks
+## Available Casks 📦
 
-### TuxGuitar
+### TuxGuitar 🎸
 
 Multitrack guitar tablature editor and player.
 
@@ -22,16 +22,16 @@ Install with:
 brew install --cask tuxguitar
 ```
 
-## Why This Tap Exists
+## Why This Tap Exists 🤔
 
 This repository is used to:
 
--   Maintain deprecated or niche macOS applications
--   Keep reproducible installations across machines
--   Avoid dependency on Homebrew core cask policies (e.g. Gatekeeper
+-   🧰 Maintain deprecated or niche macOS applications
+-   ♻️ Keep reproducible installations across machines
+-   🛡️ Avoid dependency on Homebrew core cask policies (e.g. Gatekeeper
     notarization enforcement)
 
-## Gatekeeper Note
+## Gatekeeper Note 🔐
 
 Some apps in this tap may not be notarized by Apple.\
 If macOS blocks an app, you can remove the quarantine attribute:
@@ -40,7 +40,7 @@ If macOS blocks an app, you can remove the quarantine attribute:
 xattr -dr com.apple.quarantine /Applications/<AppName>.app
 ```
 
-## Disclaimer
+## Disclaimer ⚠️
 
 This is a personal-use tap.\
 Use at your own discretion.
