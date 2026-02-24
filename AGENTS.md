@@ -50,6 +50,15 @@ Do not apply frontend-only conventions unless a task explicitly adds frontend co
 - Provide safe defaults where useful.
 - Do not echo secrets or sensitive data in logs/docs.
 
+## README and Docs Style
+
+- Prefer visually scannable READMEs, not long text blocks.
+- Use badges where useful (platform/type/status).
+- Include a clear `Quick Start` section with copy/paste commands.
+- Prefer tables for package overviews when multiple items are listed.
+- Add a short troubleshooting section for common failure paths (for taps: Gatekeeper/quarantine).
+- These readability conventions are generally good for most GitHub repos, then adapt details to repo type.
+
 ## Security and Secrets
 
 Never commit:
